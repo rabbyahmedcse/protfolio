@@ -1,0 +1,285 @@
+*{
+    /* border: 5px; */
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+    max-width: 1200px;
+    margin: auto;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    
+    
+
+
+    
+}
+ul li a{
+    text-decoration: none;
+}
+#co-button{
+    background-color:  whitesmoke;
+    padding: 10px 20px;
+    border: 1px solid #fd6e0aFF ;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    color:#fd6e0aFF ;
+
+}
+
+.button{
+    background-color:  #fd6e0aFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    color: whitesmoke;
+    cursor: pointer;
+    
+}
+.logo-r{
+    
+    color:#fd6e0aFF ;
+}
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+}
+.evan-parant{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    border: 0px;
+    
+
+}
+
+.right-pic{
+    position: relative;
+    background-image: url("../ing/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+
+    height: 600px; 
+}
+
+#pepole{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+}
+.back-color{
+    background-color: #fff8f3;
+}  
+#p1{
+    color: #474747;
+    font-size: 25px;
+}
+#p2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #757575;
+}
+.left-information{
+    gap: 40px;
+    /* border: 1px solid black; */
+    
+}
+.left-information h3{
+    font-weight: bold;
+    font-size:40px;
+}
+.dc-button{
+
+}
+.sec-section{
+   
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.info-me{
+    background-color: #fff8f3;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    height: 300px;
+    padding: 150px;
+}
+.about h1{
+    display: flex;
+    justify-content: center;
+
+}
+.about p{
+    padding-top:40px ;
+    
+    line-height: 1.8;
+    text-align: center;
+    color: #757575;
+}
+.personal-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 20px;
+    
+
+}
+.name p{
+    color: #757575;
+    
+    text-align: center;
+    
+}
+.name h2{
+    color: #474747;
+    font-size: 20px;
+    
+    text-align: center;
+    
+}
+.skill{
+    margin: 60px auto;
+    text-align: center;
+    max-width: 1200px;
+}
+.skill-info h1{
+    padding-top:20px ;
+}
+.skill-info p{
+    padding: 20px 200px;
+}
+.code-skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.java{
+    text-align: start;
+
+    padding: 40px;
+    background-color: #f9f7f5;
+}
+.java img,h3{
+    margin-bottom: 20px;
+}
+.galary{
+    max-width: 1200px;
+    margin: auto;
+}
+.galary h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+::placeholder{
+    color: gray;
+}
+.galary_pic{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-auto-rows: 250px;
+    grid-template-areas:
+    "one two three"
+    "four two six"
+    "four five six"
+    ;
+    padding-bottom: 100px;
+}
+.galary_pic img{
+    width: 100%;
+height: 100%;
+object-fit: cover;
+}
+#pic-1{
+    grid-area: one;
+}
+#pic-2{
+    grid-area: two;
+}
+#pic-3{
+    grid-area: three;
+}
+#pic-4{
+    grid-area: four;
+}
+#pic-5{
+    grid-area: five;
+}
+#pic-6{
+    grid-area: six;
+}
+footer{
+    
+ background-color: antiquewhite;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: auto;
+    gap: 50px;
+    padding-bottom: 100px
+
+   
+}
+.right-foot{
+    padding-top: 100px;
+}
+.right-foot h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.right-foot p{
+    font-size: 10px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+.left-foot{
+  padding-top: 100px;
+  display: flex;
+  
+}
+.left-foot h1{ 
+    font-size: 30px;
+  }
+  .inp{
+    height: 40px;
+    width: 461px;
+    margin-bottom: 10px;
+    display: flex;
+    border: none;
+
+  }
+textarea{
+    height: 100px;
+    width: 461px;
+    border: none;
+    display: flex;
+    margin-bottom: 20px;
+
+  }
+  .left-foot input::placeholder,
+  .left-foot textarea::placeholder{
+      padding-left: 20px;
+      padding-top: 10px;
+      margin-bottom: 20px;
+  }
